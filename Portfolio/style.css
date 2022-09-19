@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    background-image: url(images/bcg.jpg);
+    color: white;
+}
+
+.homebar {
+    background-color: darkseagreen;
+}
+
+/* section{
+    /* min-height: 100vh; */
+/* padding: 2rem 9%; */
+/* }   */
+
+.homebar1 ul {
+    display: block;
+    /* text-align: right; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* height: 0; */
+}
+
+li {
+    float: left;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: rgb(226, 194, 14);
+}
+
+.active {
+    background-color: darkolivegreen;
+}
+.intro1{
+    /* position: relative; */
+    height: 550px;;
+    width: auto;
+}
+
+.intro {
+    position: absolute;
+    left: 20%;
+    top: 15%;
+}
+.social{
+    position: relative;
+    bottom: -20vmax;
+    left: 16vmax;
+}
+.profile{
+    position: absolute;
+    left: 60%;
+}
+
+.h1element{
+    font-size:40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.name{
+    color: chartreuse;
+    font-size: 70px;
+}
+.pintro{
+    font-size: 25px;
+}
+
+.designation{
+    font-size: 35px;
+    color: olivedrab;
+}
+
+.intro a {
+    background-color: rgb(24, 11, 206);
+    padding: 12px;
+    border-radius: 50px;
+    color: azure;
+    text-decoration: none;
+}
+.social-icons a {
+    background-color:transparent;
+    color: rgb(219, 16, 2);
+    overflow: hidden;
+    padding: 2px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+/* .profile {
+    padding: 50px;
+    border: 1px solid red;
+    border-radius: 1500px;
+    display: inline-block;
+} */
+.proimage {
+    height: 500px;
+    width: 500px;
+    border-radius: 1500px;
+
+}
+
+.fa-brands {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 35px;
+
+}
+
+.fa-brands:hover {
+    opacity: 0.6;
+}
+
+.fa-instagram .fa-github .fa-telegram .fa-twitter .fa-linkedin .fa-dev {
+    background-color: blueviolet;
+    color: white;
+}
+
+
+
+.aboutintro {
+    /* background-color: aquamarine;
+    border: 1px solid greenyellow; */
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 550px;
+    width: auto;
+    position: relative;
+} 
+
+.aboutimage1 {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    border-radius: 300px;
+}
+
+.aboutimage {
+    position: absolute;
+    left: 2%;
+
+    
+}
+
+.abouttext {
+    position: absolute;
+    text-align: initial;
+    left: 40%;
+}
+
+.contactus {
+    position: relative;
+    /* border: 1px solid red; */
+    /* background-color: cornflowerblue; */
+    height: 1000px;
+    width: auto;
+} 
+
+.contactus1{
+    position: absolute;
+    left : 5%;
+    /* background-color: cornflowerblue; */
+}
+
+.contactus2{
+    position: absolute;
+    top :12%;
+    right : 20%;
+    /* background-color: cornflowerblue; */
+}
+.contactus2 a{
+    background-color:transparent;
+    color: rgb(219, 16, 2);
+    overflow: hidden;
+    padding: 15px 12px 10px 10px;
+    border-radius: 30px;
+    /* text-decoration: none; */
+}
+.contactus p{
+    font-size: medium;
+    font-weight:900;
+}
+.sendbtn{
+    /* border: 1px solid red; */
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(160, 238, 25);
+    position: absolute;
+    left: 25%;
+    bottom: -20%;
+}
+.skillhead{
+    color: rgb(152, 245, 12);
+    text-align: center;
+    font-size: 40px;
+    /* background-color: rgb(42, 175, 131); */
+}
+.skillhead p{
+    font-size: 20px;
+    color: rgb(177, 219, 105);
+}
+
+.Skills{
+    /* background-color: rgb(20, 51, 41); */
+    /* background-image: ; */
+}
+
+.grid .skillname{
+    color:rgb(153, 236, 28);
+    text-align: center;
+    margin-top: 85%;
+    font-size: 40px;
+}
+
+.grid-contain{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    /* position: relative; */
+}
+.grid{
+    /* background-color: red; */
+    margin: 40px;
+    height: 350px;
+    width: 350px;
+    /* position: absolute; */
+}
+.grid:hover{
+    /* background-color: cadetblue;
+    opacity: 0.6; */
+}
+.logo{
+    height: 320px;
+    width: auto;
+    position: absolute;
+}
+.logo1{
+    height: 300px;
+    width: 350px;
+    position: absolute;
+}

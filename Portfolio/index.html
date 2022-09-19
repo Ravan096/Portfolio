@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lakshman</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".sendbtn").click(function () {
+                $(this).css("background-color", "red")
+            });
+            $(".sendbtn").mouseleave(function () {
+                $(this).css("background-color", "rgb(160, 238, 25)")
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <section class="homebar">
+        <nav class="homebar1">
+            <ul>
+                <li>
+                    <a class="active" href="">Home</a>
+                </li>
+                <li>
+                    <a href="#aboutme">About</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="">Education</a>
+                </li>
+                <li>
+                    <a href="">Experience</a>
+                </li>
+                <li>
+                    <a href="#contactus">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <section class="intro1">
+        <div class="intro">
+            <h1 class="h1element">Hi There,<br> I'm <span class="name">Lakshman</span></h1>
+            <p class="pintro">I am a <span class="designation">Web Developer.</span></p>
+            <a href="#aboutme" class="button">About Me
+                <i class="fa-solid fa-circle-arrow-down"></i>
+            </a>
+        </div>
+        <div class="social">
+            <ul class="social-icons">
+                <li><a href="" class="instagram" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a></li>
+                <li><a href="" class="github" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a></li>
+                <li><a href="" class="telegram" target="_blank">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a></li>
+                <li><a href="" class="twitter" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a></li>
+                <li><a href="" class="linkedin" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a></li>
+                <li><a href="" class="dev" target="_blank">
+                        <i class="fa-brands fa-dev"></i>
+                    </a></li>
+            </ul>
+        </div>
+
+        <div class="profile">
+            <img draggable="false" class="proimage" src="images/146393.jpg" alt="The Beast in here">
+        </div>
+
+    </section>
+    <section class="aboutintro" id="aboutme">
+        <div class="aboutimage">
+            <img class="aboutimage1" src="images/500408.jpg" alt="Beast is comming">
+        </div>
+        <div class="abouttext">
+            <h1 style="font-size: 45px; color:darkturquoise">About Me</h1>
+            <p style="font-family:serif; font-size: 30px;">
+                I'am Lakshman, and i design website for small bussiness <br>
+                While i am based in Los Angeles, I help people to build <br>
+                for making websites.
+            </p>
+        </div>
+    </section>
+    <section class="Skills" id="skills">
+        <div class="skillhead">
+            <h1 >
+                Skills
+            </h1>
+            <p>
+                Some are follows
+            </p>
+        </div>
+        <div class="grid-contain" >
+            <div class="grid">
+                <div class="logo">
+                    <img src="images/HTML.png" alt="" class="logo1">
+                </div>
+                <h1 class="skillname">html</h1>
+            </div>
+            <div class="grid">
+                <div class="logo">
+                    <img src="images/Css.png" alt="" class="logo1">
+                </div>
+                <h1 class="skillname">CSS</h1>
+            </div>
+            <div class="grid">
+                <div class="logo">
+                    <img src="images/Js.png" alt="" class="logo1">
+                </div>
+                <h1 class="skillname">javascript</h1>
+            </div>
+            <div class="grid">
+                <div class="logo">
+                    <img src="images/Jquery.png" alt="" class="logo1">
+                </div>
+                <h1 class="skillname">Jquery</h1>
+            </div>
+            <div class="grid">
+                <div class="logo">
+                    <img src="images/Php.png" alt="" class="logo1">
+                </div>
+                <h1 class="skillname">Php</h1>
+            </div>
+            <div class="grid">
+                <div class="logo">
+                    <img src="images/Mysql.png" alt="" class="logo1">
+                </div>
+                <h1 class="skillname">MySql</h1>
+            </div>
+            <div class="grid">
+                <div class="logo">
+                    <img src="images/Python.png" alt="" class="logo1">
+                </div>
+                <h1 class="skillname">Python</h1>
+            </div>
+            <div class="grid">
+                <div class="logo">
+                    <img src="images/React.png" alt="" class="logo1">
+                </div>
+                <h1 class="skillname">React</h1>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contactus" id="contactus" style="height: 350px; width:auto;">
+        <div class="contactus1">
+            <h1 style="color: rgb(22, 204, 236); font-size: 40px">Contact Us</h1>
+            <p>
+                We are here to answer any question you may have our experiences. <br>
+                Reach out to us and we will respond as soon as we can. <br>
+                Even if there is something you have always wanted to experiences <br>
+                and can not find it on combadi, let us know and we will do our <br>
+                best to find it out for you and send you there.
+            </p>
+            <form action="">
+                <label for="name">Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text"><br><br>
+                <label for="email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="email" name="" id=""><br><br>
+                <label for="message">Messages:</label>
+                <input type="textarea" name="" id="">
+            </form>
+            <button class="sendbtn">Send</button>
+        </div>
+        <div class="contactus2">
+            <b>Email</b><br>
+            <i>xxx@mail.com</i><br>
+            <b>Phone</b><br>
+            <i>xxxxxxxxxx</i><br>
+            <b>Address</b> <br>
+            <address>
+                0000, xxxx, colony , <br>
+                xxx nagar , xxxxx 090000
+            </address>
+            <a href="" class="instagram" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="" class="linkedin" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="" class="twitter" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+        </div>
+    </section>
+</body>
+
+</html>
